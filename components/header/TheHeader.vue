@@ -1,5 +1,13 @@
 <template>
-    <div class="container mx-auto px-4">
-        This is the header
+    <div class="container mx-auto px-4 py-4 flex flex-row justify-between">
+        <div>
+            Logo
+        </div>
+        <div class="flex flex-row gap-5">
+            <NuxtLink :to="item.url" v-for="item in data.navigation" :key="item.title">{{ item.title }}</NuxtLink>
+        </div>
     </div>
 </template>
+<script setup>
+import data from '~/content/navigation.json'
+</script>
