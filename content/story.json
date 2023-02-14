@@ -20,5 +20,90 @@
     "button": {
         "title": "See more",
         "url": "/portfolio"
-    }
+    },
+    "logos": {
+        "title": "Clients",
+        "images": [
+            {
+                "title": "logo",
+                "id": "l-001",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-002",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-003",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-004",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-005",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-006",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-007",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-008",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-009",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-010",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-011",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            },
+            {
+                "title": "logo",
+                "id": "l-012",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/PPE-Template-1-3_2022-01-08-184901.png"
+            }
+        ]
+    },
+    "featured": [
+        {
+            "title": "Project one",
+            "id": "001",
+            "url": "/portfolio/project-one",
+            "image": {
+                "title": "High Street",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+            }
+        },
+        {
+            "title": "Project two",
+            "id": "002",
+            "url": "/portfolio/project-two",
+            "image": {
+                "title": "House holes",
+                "url": "https://ik.imagekit.io/2lyxtm1dps/House-Holes.jpg"
+            }
+        }
+    ]
 }

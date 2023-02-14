@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "card": {
+                "title": "Project one",
+                "url": "/portfolio/project-one",
+                "slug": "project-one"
+            },
+            "content": [
+                {
+                    "blockType": "image",
+                    "image": {
+                        "title": "High Street",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                    }
+                }
+            ]
+        },
+        {
+            "card": {
+                "title": "Project two",
+                "url": "/portfolio/project-two",
+                "slug": "project-two"
+            },
+            "content": [
+                {
+                    "blockType": "image",
+                    "image": {
+                        "title": "House holes",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/House-Holes.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
