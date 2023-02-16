@@ -1,0 +1,24 @@
+{
+    "hero-text": {
+        "heading": "Get in touch",
+        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+    },
+    "gallery" : [
+        {
+            "title": "High Street",
+            "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+        },
+        {
+            "title": "House holes",
+            "url": "https://ik.imagekit.io/2lyxtm1dps/House-Holes.jpg"
+        },
+        {
+            "title": "Floppy",
+            "url": "https://ik.imagekit.io/2lyxtm1dps/Floppy.jpg"
+        }
+    ],
+    "button": {
+        "title": "hello@amygoodingdesign.com",
+        "url": "hello@amygoodingdesign.com"
+    }
+}
