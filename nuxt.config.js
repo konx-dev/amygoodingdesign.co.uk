@@ -11,5 +11,11 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxtjs/tailwindcss'
-    ]
+    ],
+    components: {
+        path: '~/components',
+        pathPrefix: false
+        // global: true,
+        // dirs: ['~/components/pagebuilder']
+    }
 })

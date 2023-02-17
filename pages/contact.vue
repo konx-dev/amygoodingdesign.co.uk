@@ -7,7 +7,7 @@
         <div>
             <a :href="'mailto:' + data.button.title">{{ data.button.title }}</a>
         </div>
-        <ImagesGallery :ctx="data.gallery" />
+        <Gallery :ctx="data.gallery" />
     </div>
 </template>
 <script setup>

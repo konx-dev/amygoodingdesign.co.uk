@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{ pageData }}
+        <component :is="item.blockType" :ctx="item" v-for="item in entry.content" :key="item.id"></component>
     </div>
 </template>
 <script setup>
@@ -11,7 +11,14 @@ function currentRoute() {
     return route.params.slug
 }
 
-const pageData = data.projects.filter(project => project.card.slug === currentRoute())
+function setPageData() {
+    const setData = data.projects.filter(project => project.card.slug === currentRoute())
+    // console.log(setData[0].content)
+    return setData[0]
+}
+
+const entry = setPageData()
 
 </script>
+
 

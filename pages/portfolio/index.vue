@@ -1,7 +1,8 @@
 <template>
     <div>
-        <CardsDuo :ctx="projectPicker('project-five','project-three')" />
-        <CardsSingle :ctx="projectPicker('project-two')" />
+        <Single :ctx="projectPicker('project-one')" />
+        <Duo :ctx="projectPicker('project-five','project-three')" />
+        <Single :ctx="projectPicker('project-two')" />
     </div>
 </template>
 <script setup>

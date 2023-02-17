@@ -3,13 +3,13 @@ import Gallery from '~~/components/images/Gallery.vue';
 
 <template>
     <div>
-        <ImagesGallery :ctx="data.gallery" />
-        <PagebuilderHeroText :ctx="data['hero-text']" />
-        <CardsFeatured :ctx="data.featured" />
+        <Gallery :ctx="data.gallery" />
+        <HeroText :ctx="data['hero-text']" />
+        <Featured :ctx="data.featured" />
         <div class="flex my-4 justify-center">
-            <CoreButton :ctx="data.button" />
+            <Button :ctx="data.button" />
         </div>
-        <ImagesLogos :ctx="data.logos" />
+        <Logos :ctx="data.logos" />
     </div>
 </template>
 <script setup>
