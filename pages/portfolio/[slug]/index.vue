@@ -1,24 +1,36 @@
 <template>
-    <div>
+    <div v-if="entry">
         <component :is="item.blockType" :ctx="item" v-for="item in entry.content" :key="item.id"></component>
     </div>
 </template>
-<script setup>
+<script>
 import data from '~/content/projects.json'
 
-function currentRoute() {
-    const route = useRoute()
-    return route.params.slug
+import ContentBlock from '~/components/pagebuilder/ContentBlock.vue'
+import ImageSingle from '~/components/pagebuilder/ImageSingle.vue'
+
+export default {
+    components: {
+        ContentBlock,
+        ImageSingle
+    },
+    data() {
+        return {
+            entry: null
+        }
+    },
+    mounted() {
+        this.setPageData()
+    },
+    methods: {
+        currentRoute() {
+            const route = useRoute()
+            return route.params.slug
+        },
+        setPageData() {
+            const setData = data.projects.filter(project => project.card.slug === this.currentRoute())
+            this.entry = setData[0]
+        }
+    }
 }
-
-function setPageData() {
-    const setData = data.projects.filter(project => project.card.slug === currentRoute())
-    // console.log(setData[0].content)
-    return setData[0]
-}
-
-const entry = setPageData()
-
 </script>
-
-
