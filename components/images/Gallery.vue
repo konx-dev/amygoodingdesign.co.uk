@@ -1,9 +1,11 @@
 <template>
     <div>
-        <img v-for="image in ctx" :src="image.url" :alt="image.title"/>
+        <img :src="ctx[activeImage].url" :alt="ctx[activeImage].title" />
     </div>
 </template>
 <script setup>
+
+const activeImage = ref(0)
 
 const props = defineProps({
     ctx: {
@@ -11,5 +13,20 @@ const props = defineProps({
         required: true
     }
 })
+
+function updateImage() {
+    let length = props.ctx.length -1
+
+    if (activeImage.value === length) {
+        activeImage.value = 0
+    } else {
+        activeImage.value = activeImage.value + 1
+    }
+
+}
+
+onMounted(() => {
+  let timerId = setInterval(() => updateImage(), 5000);
+});
 
 </script>
