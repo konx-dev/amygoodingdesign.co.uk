@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto px-4 py-4 flex flex-row justify-between">
-        <NuxtLink to="/">
+        <NuxtLink class="font-anton" to="/">
             Logo
         </NuxtLink>
         <div class="flex flex-row gap-5">

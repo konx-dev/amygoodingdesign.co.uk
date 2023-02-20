@@ -5,6 +5,10 @@ module.exports = {
       '~/components/**/*.vue',
   ],
   theme: {
+    fontFamily: {
+      'anton': ['Anton','sans-serif'],
+      'raleway': ['Raleway','sans-serif']
+    },
     extend: {},
   },
   variants: {
