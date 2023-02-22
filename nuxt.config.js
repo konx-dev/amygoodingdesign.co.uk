@@ -18,5 +18,10 @@ export default defineNuxtConfig({
         pathPrefix: false
         // global: true,
         // dirs: ['~/components/pagebuilder']
+    },
+    runtimeConfig: {
+        public: {
+            setPassword: process.env.SET_PASSWORD
+        }
     }
 })
