@@ -1,1 +1,1 @@
-export const portfolioPassword = () => useState('password', () => '123')
+export const userAuthenticated = () => useState('authenticated', () => false)

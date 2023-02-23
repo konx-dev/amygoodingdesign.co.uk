@@ -2,9 +2,10 @@
     "projects": [
         {
             "card": {
-                "title": "Project one",
-                "url": "/portfolio/project-one",
-                "slug": "project-one",
+                "title": "GU Puds",
+                "url": "/portfolio/gu-puds",
+                "slug": "gu-puds",
+                "private": false, 
                 "image": {
                     "title": "High Street",
                     "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
@@ -23,13 +24,51 @@
                 {
                     "blockType": "ContentBlock",
                     "id": "002",
+                    "isReversed": false,
                     "image": {
                         "title": "High Street",
                         "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
                     },
                     "text": {
-                        "heading": "GU",
+                        "heading": "The Idea",
                         "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                },
+                {
+                    "blockType": "ImageSingle",
+                    "id": "003",
+                    "image": {
+                        "title": "High Street",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                    }
+                },
+                {
+                    "blockType": "ImageSingle",
+                    "id": "004",
+                    "image": {
+                        "title": "High Street",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                    }
+                },
+                {
+                    "blockType": "ContentBlock",
+                    "id": "005",
+                    "isReversed": true,
+                    "image": {
+                        "title": "High Street",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                    },
+                    "text": {
+                        "heading": "Photography",
+                        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                },
+                {
+                    "blockType": "ImageSingle",
+                    "id": "006",
+                    "image": {
+                        "title": "High Street",
+                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
                     }
                 }
             ]
