@@ -11,12 +11,12 @@
     </div>
 </template>
 <script setup>
-import { generate } from '@vue/compiler-core';
+import { useUserAuth } from '~/store/userAuth'
 
+const userAuth = useUserAuth()
 
 let userSubmission = ref(null)
 let passwordIncorrect = ref(false)
-const runtimeConfig = useRuntimeConfig();
 
 function checkUserSubmission(val) {
         
@@ -30,11 +30,15 @@ function checkUserSubmission(val) {
 
     if (hashSubmission(val) === hashedPassword) {
         console.log('password correct')
+        sessionStorage.setPassword = val
+        console.log(sessionStorage)
+        userAuth.passwordAccepted()
+
     } else {
         console.log('password wrong, please try again..')
+        console.log(sessionStorage)
+        this.passwordIncorrect = true
     }
-
-    console.log(hashSubmission(val))
 }
 
 </script>

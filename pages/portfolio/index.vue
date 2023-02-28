@@ -3,8 +3,7 @@
         <Single :ctx="projectPicker('gu-puds')" />
         <Duo :ctx="projectPicker('project-five','project-three')" />
         <Single :ctx="projectPicker('project-two')" />
-        <PasswordAuth />
-        {{ userAuth.isLoggedIn }}
+        <PasswordAuth v-if="!userAuth.isLoggedIn" />
     </div>
 </template>
 <script setup>
