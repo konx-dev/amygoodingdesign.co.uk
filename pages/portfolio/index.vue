@@ -4,13 +4,14 @@
         <Duo :ctx="projectPicker('project-five','project-three')" />
         <Single :ctx="projectPicker('project-two')" />
         <PasswordAuth />
-        {{ isUserAuthenticated }}
+        {{ userAuth.isLoggedIn }}
     </div>
 </template>
 <script setup>
 import data from '~/content/projects.json'
+import { useUserAuth } from '~/store/userAuth'
 
-const isUserAuthenticated = userAuthenticated()
+const userAuth = useUserAuth()
 
 function projectPicker(first, second) {
     const pickedProjects = data.projects.filter(project => project.card.slug === first || project.card.slug === second)
