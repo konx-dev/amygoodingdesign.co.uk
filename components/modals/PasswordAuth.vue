@@ -21,7 +21,6 @@ let passwordIncorrect = ref(false)
 function checkUserSubmission(val) {
         
     const hashedPassword = 821823318;
-    console.log(hashedPassword)
     
     const hashSubmission = s => s.split("").reduce((a,b) => {
         a = (a << 5) - a + b.charCodeAt(0);
@@ -29,14 +28,9 @@ function checkUserSubmission(val) {
     }, 0);
 
     if (hashSubmission(val) === hashedPassword) {
-        console.log('password correct')
-        sessionStorage.setPassword = val
-        console.log(sessionStorage)
+        localStorage.setPassword = hashSubmission(val)
         userAuth.passwordAccepted()
-
     } else {
-        console.log('password wrong, please try again..')
-        console.log(sessionStorage)
         this.passwordIncorrect = true
     }
 }
