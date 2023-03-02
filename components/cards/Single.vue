@@ -2,6 +2,7 @@
     <div>
         <NuxtLink :to="ctx[0].card.url">
             <img :src="ctx[0].card.image.url" :alt="ctx[0].card.image.title" />
+            private: {{ ctx[0].card.private }}
         </NuxtLink>
     </div>
 </template>

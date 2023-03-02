@@ -78,6 +78,7 @@
                 "title": "Project two",
                 "url": "/portfolio/project-two",
                 "slug": "project-two",
+                "private": false, 
                 "image": {
                     "title": "House holes",
                     "url": "https://ik.imagekit.io/2lyxtm1dps/House-Holes.jpg"
@@ -98,6 +99,7 @@
                 "title": "Project three",
                 "url": "/portfolio/project-three",
                 "slug": "project-three",
+                "private": true, 
                 "image": {
                     "title": "Floppy",
                     "url": "https://ik.imagekit.io/2lyxtm1dps/Floppy.jpg"
@@ -118,6 +120,7 @@
                 "title": "Project four",
                 "url": "/portfolio/project-four",
                 "slug": "project-four",
+                "private": false, 
                 "image": {
                     "title": "House holes",
                     "url": "https://ik.imagekit.io/2lyxtm1dps/House-Holes.jpg"
@@ -138,6 +141,7 @@
                 "title": "Project five",
                 "url": "/portfolio/project-five",
                 "slug": "project-five",
+                "private": true, 
                 "image": {
                     "title": "High Street",
                     "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"

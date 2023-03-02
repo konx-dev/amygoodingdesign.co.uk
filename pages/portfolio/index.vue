@@ -15,8 +15,16 @@ const userAuth = useUserAuth()
 function projectPicker(first, second) {
     const pickedProjects = data.projects.filter(project => project.card.slug === first || project.card.slug === second)
 
-    return pickedProjects
+    return checkProjectPrivacy(pickedProjects)
 }
 
+function checkProjectPrivacy(val) {
+
+    if (userAuth.isLoggedIn) {
+        return val
+    } else {
+        return val.filter(project => project.card.private === false)
+    }
+}
 
 </script>
