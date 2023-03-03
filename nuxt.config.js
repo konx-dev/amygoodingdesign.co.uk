@@ -6,6 +6,7 @@ export default defineNuxtConfig({
             }
         }
     },
+    ssr: false,
     alias: {
         pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
     },
