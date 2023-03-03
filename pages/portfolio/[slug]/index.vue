@@ -20,8 +20,7 @@ export default {
     },
     data() {
         return {
-            entry: null,
-            isPrivate: null
+            entry: null
         }
     },
     mounted() {
@@ -35,7 +34,6 @@ export default {
         setPageData() {
             const setData = data.projects.filter(project => project.card.slug === this.currentRoute())
             this.entry = setData[0]
-            this.isPrivate = setData[0].card.private
         }
     }
 }
