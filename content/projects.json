@@ -7,8 +7,8 @@
                 "slug": "gu-puds",
                 "private": false, 
                 "image": {
-                    "title": "High Street",
-                    "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                    "title": "GU Logo",
+                    "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Header.jpg"
                 }
 
             },
@@ -17,8 +17,8 @@
                     "blockType": "ImageSingle",
                     "id": "001",
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "GU Logo",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Header.jpg"
                     }
                 },
                 {
@@ -26,28 +26,28 @@
                     "id": "002",
                     "isReversed": false,
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "Project GU - closeup",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Closeup.jpg"
                     },
                     "text": {
                         "heading": "The Idea",
-                        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
                     }
                 },
                 {
                     "blockType": "ImageSingle",
                     "id": "003",
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "GU Idea",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Idea.jpg"
                     }
                 },
                 {
                     "blockType": "ImageSingle",
                     "id": "004",
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "GU Renders",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Renders.jpg"
                     }
                 },
                 {
@@ -55,20 +55,20 @@
                     "id": "005",
                     "isReversed": true,
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "GU Guzillionaire",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Guzillionaire+Photo.jpg"
                     },
                     "text": {
                         "heading": "Photography",
-                        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
                     }
                 },
                 {
                     "blockType": "ImageSingle",
                     "id": "006",
                     "image": {
-                        "title": "High Street",
-                        "url": "https://ik.imagekit.io/2lyxtm1dps/3341dcc7-c88e-26e7-de7c-755b995e9f21.png"
+                        "title": "GU Illustrations",
+                        "url": "https://s3.eu-west-2.amazonaws.com/amygoodingdesign.co.uk/Project_Gu_Illustrations.jpg"
                     }
                 }
             ]

@@ -1,12 +1,12 @@
 {
     "navigation" : [
         {
-            "title": "Story",
-            "url": "/"
-        },
-        {
             "title": "Portfolio",
             "url": "/portfolio"
+        },
+        {
+            "title": "Story",
+            "url": "/"
         },
         {
             "title": "Contact",

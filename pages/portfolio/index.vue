@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="mx-auto container my-5 md:my-10 lg:my-16 px-6">
         <Single :ctx="projectPicker('gu-puds')" />
-        <Duo :ctx="projectPicker('project-five','project-three')" />
-        <Single :ctx="projectPicker('project-two')" />
+        <Duo :ctx="projectPicker('gu-puds','project-three')" />
+        <Single :ctx="projectPicker('gu-puds')" />
         <PasswordAuth v-if="!userAuth.isLoggedIn" />
     </div>
 </template>
